@@ -48,10 +48,10 @@ print(tf.__version__)
 
 
 # Create features
-X = np.expand_dims(np.arange(-100, 100, 4))
+X = np.expand_dims(np.arange(-100, 100, 4), axis=1)
 
 # Create labels
-y = np.expand_dims(np.arange(-90, 110, 4))
+y = np.expand_dims(np.arange(-90, 110, 4), axis=1)
 
 
 # Split data into train and test sets
