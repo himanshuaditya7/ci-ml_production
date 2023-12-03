@@ -1,4 +1,6 @@
 tensorflow
 numpy
 matplotlib
+Pandas
+
 
